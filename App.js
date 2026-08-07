@@ -5,7 +5,7 @@ import * as Battery from 'expo-battery';
 import * as Device from 'expo-device';
 import * as Location from 'expo-location';
 
-const WEBHOOK_URL = 'https://tu-nodo-n8n.app.n8n.cloud/webhook/location';
+const WEBHOOK_URL = 'https://oscarrios.app.n8n.cloud/webhook/location';
 
 export default function App() {
   const [permission, setPermission] = useState(null);
